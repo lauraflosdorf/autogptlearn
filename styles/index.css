@@ -1,0 +1,118 @@
+/* Base styling for the ML education site */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.6
+  }
+  h1, h2, h3 {
+    color: #276ef1; /* blue shade */
+    font-weight: 300;
+  }
+  a {
+    color: #276ef1;
+    text-decoration: none;
+  }
+  /* Navigation sidebar styling */
+  .sidebar {
+    background-color: #e8eaf6; /* light blue */
+    padding: 20px;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+   }
+
+   .sidebar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+   }
+   
+   .sidebar li a:hover {
+    background-color: #d9def7;
+   }
+
+  /* Main content area styling */
+  .main-content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  /* Quiz elements styling for more dynamic interactivity and modern aesthetics */
+  .quiz-container {
+    background-color: #ffffff; /* white background */
+    border: 2px solid #cccccc; /* blue border */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .quiz-question {
+    color: #276ef1;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .quiz-options {
+    margin-top: 10px;
+  }
+
+  .quiz-button {
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }   
+
+  .quiz-button:hover {
+    background-color: darkgray;
+  }
+
+  .option {
+    background-color: #e8eaf6; /* light gray */
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  .option:hover {
+    background-color: #ccc; /* darker gray */
+  }
+
+  .content {
+    margin-left: 300px; /* Damit der Inhalt neben der Sidebar platziert wird */
+    padding: 30px;
+  }
+
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .main-content {
+      margin-left: 0;
+    }
+  }
+
+  /** Styles for 'Add to course plan' button **/
+.add-to-course-plan-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #276ef1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}

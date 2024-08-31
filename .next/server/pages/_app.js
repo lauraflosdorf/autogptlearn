@@ -1,0 +1,79 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
+exports.modules = {
+
+/***/ "./pages/_app.tsx":
+/*!************************!*\
+  !*** ./pages/_app.tsx ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _src_components_Sidebar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/Sidebar */ \"./src/components/Sidebar.tsx\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/index.css */ \"./styles/index.css\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction MyApp({ Component, pageProps }) {\n    const [coursePlan, setCoursePlan] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);\n    const addCourse = (course)=>{\n        setCoursePlan((prevPlan)=>{\n            // Avoid adding duplicate courses\n            if (!prevPlan.find((c)=>c.title === course.title)) {\n                return [\n                    ...prevPlan,\n                    course\n                ];\n            }\n            return prevPlan;\n        });\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"app-layout\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_components_Sidebar__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/pages/_app.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"content\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                    ...pageProps,\n                    coursePlan: coursePlan,\n                    addCourse: addCourse\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/pages/_app.tsx\",\n                    lineNumber: 23,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/pages/_app.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/pages/_app.tsx\",\n        lineNumber: 20,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBd0M7QUFFUTtBQUNuQjtBQUU3QixTQUFTRyxNQUFNLEVBQUVDLFNBQVMsRUFBRUMsU0FBUyxFQUFZO0lBQy9DLE1BQU0sQ0FBQ0MsWUFBWUMsY0FBYyxHQUFHTiwrQ0FBUUEsQ0FBQyxFQUFFO0lBRS9DLE1BQU1PLFlBQVksQ0FBQ0M7UUFDakJGLGNBQWMsQ0FBQ0c7WUFDYixpQ0FBaUM7WUFDakMsSUFBSSxDQUFDQSxTQUFTQyxJQUFJLENBQUMsQ0FBQ0MsSUFBTUEsRUFBRUMsS0FBSyxLQUFLSixPQUFPSSxLQUFLLEdBQUc7Z0JBQ25ELE9BQU87dUJBQUlIO29CQUFVRDtpQkFBTztZQUM5QjtZQUNBLE9BQU9DO1FBQ1Q7SUFDRjtJQUVBLHFCQUNFLDhEQUFDSTtRQUFJQyxXQUFVOzswQkFDYiw4REFBQ2IsK0RBQU9BOzs7OzswQkFDUiw4REFBQ1k7Z0JBQUlDLFdBQVU7MEJBQ2IsNEVBQUNYO29CQUFXLEdBQUdDLFNBQVM7b0JBQUVDLFlBQVlBO29CQUFZRSxXQUFXQTs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJckU7QUFFQSxpRUFBZUwsS0FBS0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL21sLWVkdWNhdGlvbi1zaXRlLy4vcGFnZXMvX2FwcC50c3g/MmZiZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QsIHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBBcHBQcm9wcyB9IGZyb20gJ25leHQvYXBwJztcbmltcG9ydCBTaWRlYmFyIGZyb20gJy4uL3NyYy9jb21wb25lbnRzL1NpZGViYXInO1xuaW1wb3J0ICcuLi9zdHlsZXMvaW5kZXguY3NzJztcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9OiBBcHBQcm9wcykge1xuICBjb25zdCBbY291cnNlUGxhbiwgc2V0Q291cnNlUGxhbl0gPSB1c2VTdGF0ZShbXSk7XG5cbiAgY29uc3QgYWRkQ291cnNlID0gKGNvdXJzZSkgPT4ge1xuICAgIHNldENvdXJzZVBsYW4oKHByZXZQbGFuKSA9PiB7XG4gICAgICAvLyBBdm9pZCBhZGRpbmcgZHVwbGljYXRlIGNvdXJzZXNcbiAgICAgIGlmICghcHJldlBsYW4uZmluZCgoYykgPT4gYy50aXRsZSA9PT0gY291cnNlLnRpdGxlKSkge1xuICAgICAgICByZXR1cm4gWy4uLnByZXZQbGFuLCBjb3Vyc2VdO1xuICAgICAgfVxuICAgICAgcmV0dXJuIHByZXZQbGFuO1xuICAgIH0pO1xuICB9O1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJhcHAtbGF5b3V0XCI+XG4gICAgICA8U2lkZWJhciAvPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250ZW50XCI+XG4gICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gY291cnNlUGxhbj17Y291cnNlUGxhbn0gYWRkQ291cnNlPXthZGRDb3Vyc2V9IC8+XG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgTXlBcHA7XG5cblxuIl0sIm5hbWVzIjpbIlJlYWN0IiwidXNlU3RhdGUiLCJTaWRlYmFyIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJjb3Vyc2VQbGFuIiwic2V0Q291cnNlUGxhbiIsImFkZENvdXJzZSIsImNvdXJzZSIsInByZXZQbGFuIiwiZmluZCIsImMiLCJ0aXRsZSIsImRpdiIsImNsYXNzTmFtZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+
+/***/ }),
+
+/***/ "./src/components/Sidebar.tsx":
+/*!************************************!*\
+  !*** ./src/components/Sidebar.tsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Sidebar() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"sidebar\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/\",\n                        children: \"Home\"\n                    }, void 0, false, {\n                        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                        lineNumber: 7,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/foundations\",\n                        children: \"Foundations\"\n                    }, void 0, false, {\n                        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                        lineNumber: 8,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/cnn\",\n                        children: \"Convolutional Neural Networks\"\n                    }, void 0, false, {\n                        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                        lineNumber: 9,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/svm\",\n                        children: \"Support Vector Machines\"\n                    }, void 0, false, {\n                        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                        lineNumber: 10,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                    lineNumber: 10,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"/randomforests\",\n                        children: \"Random Forests\"\n                    }, void 0, false, {\n                        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                        lineNumber: 11,\n                        columnNumber: 13\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n                    lineNumber: 11,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/lauraflosdorf/AutoGPT/data/agents/ReactEduGPT-0db4e629/workspace/ml-education-site/src/components/Sidebar.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Sidebar);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9TaWRlYmFyLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBMEI7QUFFMUIsU0FBU0M7SUFDUCxxQkFDRSw4REFBQ0M7UUFBSUMsV0FBVTtrQkFDYiw0RUFBQ0M7OzhCQUNDLDhEQUFDQzs4QkFBRyw0RUFBQ0M7d0JBQUVDLE1BQUs7a0NBQUk7Ozs7Ozs7Ozs7OzhCQUNoQiw4REFBQ0Y7OEJBQUcsNEVBQUNDO3dCQUFFQyxNQUFLO2tDQUFlOzs7Ozs7Ozs7Ozs4QkFDM0IsOERBQUNGOzhCQUFHLDRFQUFDQzt3QkFBRUMsTUFBSztrQ0FBTzs7Ozs7Ozs7Ozs7OEJBQ25CLDhEQUFDRjs4QkFBRyw0RUFBQ0M7d0JBQUVDLE1BQUs7a0NBQU87Ozs7Ozs7Ozs7OzhCQUNuQiw4REFBQ0Y7OEJBQUcsNEVBQUNDO3dCQUFFQyxNQUFLO2tDQUFpQjs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUlyQztBQUVBLGlFQUFlTixPQUFPQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWwtZWR1Y2F0aW9uLXNpdGUvLi9zcmMvY29tcG9uZW50cy9TaWRlYmFyLnRzeD81NTUxIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmZ1bmN0aW9uIFNpZGViYXIoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9J3NpZGViYXInPlxuICAgICAgPHVsPlxuICAgICAgICA8bGk+PGEgaHJlZj0nLyc+SG9tZTwvYT48L2xpPlxuICAgICAgICA8bGk+PGEgaHJlZj0nL2ZvdW5kYXRpb25zJz5Gb3VuZGF0aW9uczwvYT48L2xpPlxuICAgICAgICA8bGk+PGEgaHJlZj0nL2Nubic+Q29udm9sdXRpb25hbCBOZXVyYWwgTmV0d29ya3M8L2E+PC9saT5cbiAgICAgICAgPGxpPjxhIGhyZWY9Jy9zdm0nPlN1cHBvcnQgVmVjdG9yIE1hY2hpbmVzPC9hPjwvbGk+XG4gICAgICAgIDxsaT48YSBocmVmPScvcmFuZG9tZm9yZXN0cyc+UmFuZG9tIEZvcmVzdHM8L2E+PC9saT5cbiAgICAgIDwvdWw+XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IFNpZGViYXI7XG4iXSwibmFtZXMiOlsiUmVhY3QiLCJTaWRlYmFyIiwiZGl2IiwiY2xhc3NOYW1lIiwidWwiLCJsaSIsImEiLCJocmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Sidebar.tsx\n");
+
+/***/ }),
+
+/***/ "./styles/index.css":
+/*!**************************!*\
+  !*** ./styles/index.css ***!
+  \**************************/
+/***/ (() => {
+
+
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
+module.exports = __webpack_exports__;
+
+})();
